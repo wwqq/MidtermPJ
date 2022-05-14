@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SshConfigs">
+    <configs>
+      <sshConfig authType="PASSWORD" host="10.192.9.198" id="e1975c25-e816-47aa-87bf-5910f0643953" port="22" nameFormat="DESCRIPTIVE" username="smby" useOpenSSHConfig="true" />
+      <sshConfig authType="PASSWORD" host="10.88.3.82" id="de57f1b1-4c74-4480-b1a5-15eec3a663a1" port="22" nameFormat="DESCRIPTIVE" username="smby" useOpenSSHConfig="true" />
+      <sshConfig authType="PASSWORD" host="10.88.3.81" id="f67909a2-9e0b-4e20-9520-bd159208c812" port="22" nameFormat="DESCRIPTIVE" username="mby" useOpenSSHConfig="true" />
+      <sshConfig authType="PASSWORD" host="10.192.9.199" id="098e4b9c-0595-427b-84d3-11220e835d92" port="22" nameFormat="DESCRIPTIVE" username="smby" useOpenSSHConfig="true" />
+      <sshConfig authType="PASSWORD" host="10.88.3.55" id="bc2438fe-9746-4b6a-8335-cf40aa70f69d" port="22" nameFormat="DESCRIPTIVE" username="smby" useOpenSSHConfig="true" />
+    </configs>
+  </component>
+</project>

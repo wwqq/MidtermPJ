@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="76312146-1cc2-4d82-9961-dd32b6980a93" name="198">
+        <fileTransfer rootFolder="/home/smby" accessType="SFTP" host="10.192.9.198" port="22" sshConfigId="e1975c25-e816-47aa-87bf-5910f0643953" sshConfig="smby@10.192.9.198:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="68e320cf-a796-41fe-85ca-68d372649b70" name="82">
+        <fileTransfer rootFolder="/home/smby" accessType="SFTP" host="10.88.3.82" port="22" sshConfigId="de57f1b1-4c74-4480-b1a5-15eec3a663a1" sshConfig="smby@10.88.3.82:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="85fa6a4b-bcf1-4482-92f6-b0d962ae823e" name="81">
+        <fileTransfer rootFolder="/home/mby" accessType="SFTP" host="10.88.3.81" port="22" sshConfigId="f67909a2-9e0b-4e20-9520-bd159208c812" sshConfig="mby@10.88.3.81:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="3bc1d2d0-6eb7-49ef-bd11-f065fc8e2a18" name="199">
+        <fileTransfer rootFolder="/home/smby" accessType="SFTP" host="10.192.9.199" port="22" sshConfigId="098e4b9c-0595-427b-84d3-11220e835d92" sshConfig="smby@10.192.9.199:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="140e9878-dbb1-4d14-85a5-4889a4783304" name="55">
+        <fileTransfer rootFolder="/home/smby" accessType="SFTP" host="10.88.3.55" port="22" sshConfigId="bc2438fe-9746-4b6a-8335-cf40aa70f69d" sshConfig="smby@10.88.3.55:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

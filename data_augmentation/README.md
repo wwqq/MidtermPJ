@@ -10,16 +10,16 @@
 $cd Cutout_None
 ```
 
-For Cutout：
-
-```
-python train.py --dataset cifar100 --model vgg --data_augmentation --cutout --length 8 --batch_size 64 --epochs 100
-```
-
 Baseline：
 
 ```
 python train.py --dataset cifar100 --model vgg --data_augmentation --batch_size 64 --epochs 100
+```
+
+For Cutout：
+
+```
+python train.py --dataset cifar100 --model vgg --data_augmentation --cutout --length 8 --batch_size 64 --epochs 100
 ```
 
 

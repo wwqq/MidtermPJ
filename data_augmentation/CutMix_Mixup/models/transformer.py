@@ -9,8 +9,6 @@ from mmcv.runner import BaseModule
 from mmcv.runner import _load_checkpoint
 from mmseg.utils import get_root_logger
 
-from ..builder import BACKBONES
-
 
 def _make_divisible(v, divisor, min_value=None):
     """
@@ -274,7 +272,8 @@ class BasicLayer(nn.Module):
         # token * N 
         for i in range(self.block_num):
             x = self.transformer_blocks[i](x)
-        return 
+        return x
+    
 class Transformer(nn.Module):
     def __init__(self, cfgs,
                  channels,
@@ -294,7 +293,6 @@ class Transformer(nn.Module):
         self.depths = depths
         self.cfgs = cfgs
         self.norm_cfg = norm_cfg
-        self.init_cfg = init_cfg
 
         for i in range(len(cfgs)):
             smb = StackedMV2Block(cfgs=cfgs[i], stem=True if i == 0 else False, inp_channel=channels[i], norm_cfg=norm_cfg)
@@ -361,7 +359,7 @@ def transformer():
         num_heads=model_cfgs['num_heads'],
         drop_path_rate=model_cfgs['drop_path_rate'])
   
-  if __name__ == '__main__':
+if __name__ == '__main__':
     model = transformer()
     input = torch.rand((1, 3, 32, 32))
     print(model)
